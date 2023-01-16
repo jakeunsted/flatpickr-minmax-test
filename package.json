@@ -1,0 +1,22 @@
+{
+  "name": "flatpickr-minmax-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakeunsted/flatpickr-minmax-test.git"
+  },
+  "author": "Jake Unsted",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakeunsted/flatpickr-minmax-test/issues"
+  },
+  "homepage": "https://github.com/jakeunsted/flatpickr-minmax-test#readme",
+  "dependencies": {
+    "flatpickr": "^4.6.13"
+  }
+}

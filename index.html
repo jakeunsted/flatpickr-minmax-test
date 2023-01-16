@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flatpickr Test</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  </head>
+  <body>
+    <h1>Flatpickr Test</h1>
+    <input type="text" id="date-picker">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+      let futureDate = new Date();
+      futureDate.setDate(futureDate.getDate() + 2);
+      
+      flatpickr("#date-picker", {
+        // add mindate of 14/01/2023
+        minDate: futureDate,
+        disable: [date => date.getDay() === 0 || date.getDay() === 6]
+      });
+    </script>
+  </body>
+</html>
